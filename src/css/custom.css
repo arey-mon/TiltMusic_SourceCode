@@ -1,0 +1,47 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+@import 'variables';
+
+
+html {
+	font-size: var(--global-font-size-default);
+
+}
+
+body {
+	@include font-smoothing;
+	font-family: var(--global-font-family);
+	position: relative;
+	overflow-x: hidden;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  width: 100%,
+  }
+
+@import './../theme/components/container/container';
+@import './../theme/components/wavecontainer/wavecontainer';
+@import './../theme/components/heading/heading';
+
+@import './../theme/sections/intro/intro';
+@import './../theme/sections/features/features';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+

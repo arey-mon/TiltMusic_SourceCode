@@ -1,0 +1,19 @@
+.tilt-intro__title {
+	font-size: var(--global-font-size-enormous);
+	line-height: 1.13;
+	color: var(--ifm-color-primary-dark);
+	font-weight: bold;
+	letter-spacing: -1px;
+	z-index: 1;
+	position: relative;
+  }
+  
+  
+  .tilt-intro__content {
+	padding-left: 55px;
+	position: relative;
+	text-align: left;
+	font-size: var(--global-font-size-big);
+}
+
+
