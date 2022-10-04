@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '@Music',
+  title: 'Tilt Music',
   tagline: 'Live the Music you want',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
